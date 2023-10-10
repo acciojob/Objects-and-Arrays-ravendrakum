@@ -6,6 +6,13 @@ const person = {
 };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
+const team = players;
+
+// Create a shallow copy of the array players
+const team1 = [...players];
+
+// Create a shallow copy of the object person
+const cap1 = { ...person };
 
 window.players = players;
 window.person = person;
